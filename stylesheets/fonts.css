@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Stratos";
+  src: url("../fonts/Stratos-Light.ttf") format("truetype");
+  font-style: light;
+  font-size: 300;
+}
+@font-face {
+  font-family: "Stratos";
+  src: url("../fonts/Stratos-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-size: 400;
+}
+@font-face {
+  font-family: "Stratos";
+  src: url("../fonts/Stratos-Medium.ttf") format("truetype");
+  font-style: medium;
+  font-size: 500;
+}
+@font-face {
+  font-family: "Stratos";
+  src: url("../fonts/Stratos-Bold.ttf") format("truetype");
+  font-style: bold;
+  font-size: 700;
+}
+
+@font-face {
+  font-family: "Stratos LC Web";
+  src: url("../fonts/StratosLCWeb-Light.woff") format("woff");
+  font-style: light;
+  font-size: 300;
+}
+@font-face {
+  font-family: "Stratos LC Web";
+  src: url("../fonts/StratosLCWeb-Regular.woff") format("woff");
+  font-style: normal;
+  font-size: 400;
+}
+@font-face {
+  font-family: "Stratos LC Web";
+  src: url("../fonts/StratosLCWeb-Medium.woff") format("woff");
+  font-style: medium;
+  font-size: 500;
+}
+@font-face {
+  font-family: "Stratos LC Web";
+  src: url("../fonts/StratosLCWeb-Bold.woff") format("woff");
+  font-style: bold;
+  font-size: 700;
+}
