@@ -834,30 +834,142 @@ h2 {
   height: 474px;
 }
 
-.ligatures .g-rectangle {
-  position: relative;
+/* GREEN КВАДРАТ */
+
+.ligatures .rectangle-green {
   width: 1500px;
   height: 145px;
   transform: rotate(2deg);
+  margin-left: -10px;
   background-color: var(--green);
+  z-index: 1;
 }
 
-.ligatures .g-beige-rectangle {
-  position: absolute;
-  width: 172px;
-  height: 144px;
-  top: 50px;
+.ligatures .rectangle-green-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
   transform: rotate(2deg);
-  background-color: var(--beige);
   z-index: var(--z-decor);
 }
 
-.ligatures .s-rectangle {
+/* ЗАГОЛОВОК GREEN КВАДРАТА */
+.ligatures .rectangle-green-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 50px;
+  position: relative;
+  z-index: var(--z-decor);
+  margin-top: -146px;
+  margin-left: 70px;
+  width: 365px;
+}
+
+.ligatures .rectangle-green-text h3 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 35px;
+  color: var(--beige);
+  z-index: var(--z-content);
+}
+
+.ligatures .rectangle-green-text .mini-rectangle-green {
+  width: 172px;
+  height: 147px;
+  top: -1px;
+  left: 80px;
+  background-color: var(--beige);
+  z-index: var(--z-content);
+}
+
+.ligatures .rectangle-green-text .pattern-green {
+  position: absolute;
+  width: 110px;
+  top: 20px;
+  left: 35px;
+  z-index: var(--z-decor);
+}
+
+/* ДЕКОР GREEN КВАДРАТА */
+
+.ligatures .rectangle-green-decorations p {
+  font-size: 62px;
+  color: var(--beige);
+  z-index: var(--z-decor);
+}
+
+.ligatures .rectangle-green-decorations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+  width: 678px;
+  height: 108px;
+  margin-top: -140px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.ligatures .p1 {
+  position: relative;
+  top: -20px;
+  transform: rotate(-3deg);
+}
+
+.ligatures .p2 {
+  position: relative;
+  font-weight: 700;
+  transform: rotate(4deg);
+}
+
+.ligatures .p3 {
+  position: relative;
+  font-weight: 500;
+  top: -25px;
+  transform: rotate(12deg);
+}
+
+.ligatures .p4 {
+  position: relative;
+  transform: rotate(-8deg);
+}
+
+.ligatures .p5 {
+  position: relative;
+  font-weight: 700;
+  top: -20px;
+  transform: rotate(-3deg);
+}
+
+.ligatures .p6 {
+  position: relative;
+  transform: rotate(7deg);
+}
+
+/* SAGE GREEN КВАДРАТ */
+
+.ligatures .rectangle-green {
   width: 1500px;
   height: 145px;
   transform: rotate(-2deg);
+  margin-left: -10px;
   background-color: var(--sageGreen);
+  z-index: 1;
 }
+
+/*.ligatures .rectangle-green-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transform: rotate(2deg);
+  z-index: var(--z-decor);
+}
+
+
 
 /* восьмой экран */
 .awards {
