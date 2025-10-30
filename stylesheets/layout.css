@@ -577,7 +577,7 @@ h2 {
 /* текст на знаке */
 
 .details .details-decoration-left h4 {
-  font-family: Stratos;
+  font-family: "Stratos";
   font-size: 43px;
   color: var(--beige);
   z-index: var(--z-decor);
@@ -832,6 +832,7 @@ h2 {
 .ligatures {
   position: relative;
   height: 474px;
+  margin-top: 60px;
 }
 
 /* GREEN КВАДРАТ */
@@ -913,45 +914,45 @@ h2 {
   position: relative;
 }
 
-.ligatures .p1 {
+.ligatures .rectangle-green-decorations .p1 {
   position: relative;
   top: -20px;
   transform: rotate(-3deg);
 }
 
-.ligatures .p2 {
+.ligatures .rectangle-green-decorations .p2 {
   position: relative;
   font-weight: 700;
   transform: rotate(4deg);
 }
 
-.ligatures .p3 {
+.ligatures .rectangle-green-decorations .p3 {
   position: relative;
   font-weight: 500;
   top: -25px;
   transform: rotate(12deg);
 }
 
-.ligatures .p4 {
+.ligatures .rectangle-green-decorations .p4 {
   position: relative;
   transform: rotate(-8deg);
 }
 
-.ligatures .p5 {
+.ligatures .rectangle-green-decorations .p5 {
   position: relative;
   font-weight: 700;
   top: -20px;
   transform: rotate(-3deg);
 }
 
-.ligatures .p6 {
+.ligatures .rectangle-green-decorations .p6 {
   position: relative;
   transform: rotate(7deg);
 }
 
 /* SAGE GREEN КВАДРАТ */
 
-.ligatures .rectangle-green {
+.ligatures .rectangle-sageGreen {
   width: 1500px;
   height: 145px;
   transform: rotate(-2deg);
@@ -960,16 +961,115 @@ h2 {
   z-index: 1;
 }
 
-/*.ligatures .rectangle-green-content {
+.ligatures .rectangle-sageGreen-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  transform: rotate(2deg);
+  transform: rotate(-2deg);
   z-index: var(--z-decor);
 }
 
+/* ЗАГОЛОВОК SAGE GREEN КВАДРАТА */
+.ligatures .rectangle-sageGreen-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 50px;
+  position: relative;
+  z-index: var(--z-decor);
+  margin-top: -145px;
+  margin-left: 70px;
+  width: 365px;
+}
 
+.ligatures .rectangle-sageGreen-text h3 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 35px;
+  color: var(--beige);
+  z-index: var(--z-content);
+}
+
+.ligatures .rectangle-sageGreen-text .mini-rectangle-sageGreen {
+  width: 172px;
+  height: 147px;
+  top: -1px;
+  left: 80px;
+  background-color: var(--beige);
+  z-index: var(--z-content);
+}
+
+.ligatures .rectangle-sageGreen-text .pattern-sageGreen {
+  position: absolute;
+  width: 110px;
+  top: 20px;
+  left: 35px;
+  z-index: var(--z-decor);
+}
+
+/* ДЕКОР SAGE GREEN КВАДРАТА */
+
+.ligatures .rectangle-sageGreen-decorations p {
+  font-size: 62px;
+  color: var(--beige);
+  z-index: var(--z-decor);
+}
+
+.ligatures .rectangle-sageGreen-decorations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+  width: 655px;
+  height: 108px;
+  margin-top: -140px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.ligatures .rectangle-sageGreen-decorations .p1 {
+  position: relative;
+  top: -15px;
+  transform: rotate(-7deg);
+}
+
+.ligatures .rectangle-sageGreen-decorations .p2 {
+  position: relative;
+  top: 10px;
+  font-weight: 700;
+}
+
+.ligatures .rectangle-sageGreen-decorations .p3 {
+  position: relative;
+  top: -20px;
+  font-weight: 500;
+  font-feature-settings: "ordn";
+  transform: rotate(8deg);
+}
+
+.ligatures .rectangle-sageGreen-decorations .p4 {
+  position: relative;
+  top: 10px;
+  transform: rotate(-12deg);
+  font-feature-settings: "ss05";
+}
+
+.ligatures .rectangle-sageGreen-decorations .p5 {
+  position: relative;
+  top: -20px;
+  font-weight: 700;
+  transform: rotate(-7deg);
+  font-feature-settings: "ss03";
+}
+
+.ligatures .rectangle-sageGreen-decorations .p6 {
+  position: relative;
+  top: 0px;
+  transform: rotate(3deg);
+  font-feature-settings: "ss05";
+}
 
 /* восьмой экран */
 .awards {
