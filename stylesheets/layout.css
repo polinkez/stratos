@@ -82,6 +82,13 @@ h2 {
   top: 124px;
   left: 100px;
   width: 110px;
+  transition: transform 0.2s ease;
+}
+.foot:hover {
+  transform: scale(1.1);
+}
+.foot:active {
+  transform: scale(0.95);
 }
 
 .pepper {
@@ -89,12 +96,23 @@ h2 {
   left: 560px;
   width: 115px;
   transform: rotate(10deg);
+  transition: transform 0.3s ease;
+}
+.pepper:hover {
+  transform: translateY(-6px);
 }
 
 .radish {
   bottom: 125px;
   left: 93px;
   width: 159px;
+  transition: transform 0.2s ease;
+}
+.radish:hover {
+  transform: scale(1.1);
+}
+.radish:active {
+  transform: scale(0.95);
 }
 
 .carrot {
@@ -102,23 +120,43 @@ h2 {
   right: 110px;
   width: 200px;
   transform: rotate(-20deg);
+  transition: transform 0.3s ease;
+}
+.carrot:hover {
+  transform: translateY(6px);
 }
 
 .eggplant {
   top: 130px;
   right: 85px;
   width: 110px;
+  transition: transform 0.2s ease;
+}
+.eggplant:hover {
+  transform: scale(1.1);
+}
+.eggplant:active {
+  transform: scale(0.95);
 }
 
 .icon-1 {
   bottom: 210px;
   left: 245px;
   width: 65px;
+  transition: transform 0.3s ease;
 }
+.icon-1:hover {
+  transform: translateY(6px);
+}
+
 .icon-2 {
   top: 250px;
   right: 450px;
   width: 75px;
+  transition: transform 0.3s ease;
+}
+.icon-2:hover {
+  transform: translateY(-6px);
 }
 
 /* второй экран */
@@ -159,6 +197,13 @@ h2 {
   top: 10px;
   left: 55px;
   width: 275px;
+  transition: transform 0.2s ease;
+}
+.strawberry:hover {
+  transform: scale(1.1);
+}
+.strawberry:active {
+  transform: scale(0.95);
 }
 
 .description-decoration .cucumber {
@@ -166,6 +211,13 @@ h2 {
   bottom: 50px;
   left: 430px;
   width: 160px;
+  transition: transform 0.2s ease;
+}
+.cucumber:hover {
+  transform: scale(1.1);
+}
+.cucumber:active {
+  transform: scale(0.95);
 }
 
 .description-decoration .icon-1-sageGreen {
@@ -173,6 +225,10 @@ h2 {
   top: 230px;
   left: 520px;
   width: 75px;
+  transition: transform 0.3s ease;
+}
+.icon-1-sageGreen:hover {
+  transform: translateY(6px);
 }
 
 .description-decoration .icon-2-sageGreen {
@@ -180,6 +236,10 @@ h2 {
   bottom: 235px;
   left: 170px;
   width: 80px;
+  transition: transform 0.3s ease;
+}
+.icon-2-sageGreen:hover {
+  transform: translateY(-6px);
 }
 
 .description-decoration .n7 {
@@ -190,6 +250,10 @@ h2 {
   left: 100px;
   bottom: 0px;
   transform: rotate(-20deg);
+  transition: transform 0.3s ease;
+}
+.n7:hover {
+  transform: translateY(-6px);
 }
 
 .description-decoration .n3 {
@@ -200,6 +264,10 @@ h2 {
   left: 320px;
   bottom: 215px;
   transform: rotate(-24deg);
+  transition: transform 0.3s ease;
+}
+.n3:hover {
+  transform: translateY(8px);
 }
 
 .description-decoration .n6 {
@@ -210,6 +278,10 @@ h2 {
   left: 400px;
   top: -5px;
   transform: rotate(16deg);
+  transition: transform 0.3s ease;
+}
+.n6:hover {
+  transform: translateY(6px);
 }
 
 .description-decoration .n8 {
@@ -220,6 +292,10 @@ h2 {
   right: -10px;
   bottom: 40px;
   transform: rotate(-14deg);
+  transition: transform 0.3s ease;
+}
+.n8:hover {
+  transform: translateY(8px);
 }
 
 /* третий экран */
@@ -230,7 +306,7 @@ h2 {
   height: 593px;
 }
 
-.authors h4 {
+.authors h3 {
   font-size: 43px;
   color: var(--beige);
   z-index: var(--z-decor);
@@ -278,7 +354,7 @@ h2 {
   transform: rotate(-30deg);
 }
 
-.authors .cart-1 h5 {
+.authors .cart-1 h4 {
   position: absolute;
   color: var(--beige);
   font-size: 32px;
@@ -287,7 +363,7 @@ h2 {
   right: 365px;
   z-index: var(--z-content);
 }
-.authors .cart-2 h5 {
+.authors .cart-2 h4 {
   position: absolute;
   color: var(--beige);
   font-size: 32px;
@@ -330,7 +406,7 @@ h2 {
   margin-bottom: 42px;
 }
 
-.features-content h3 {
+.features-content h4 {
   width: 600px;
   font-size: 32px;
   color: var(--green);
@@ -416,6 +492,15 @@ h2 {
   left: 145px;
   z-index: var(--z-decor);
 }
+.ellipse-c {
+  transition: transform 0.2s ease;
+}
+.ellipse-c:hover {
+  transform: scale(1.1);
+}
+.ellipse-c:active {
+  transform: scale(0.95);
+}
 
 /* карточка 3 */
 .features .features-decoration .card-3 {
@@ -450,20 +535,34 @@ h2 {
   font-feature-settings: "ss01" 1;
 }
 
-.features .features-decoration .card-3 .ellipce-a1 {
+.features .features-decoration .card-3 .ellipse-a1 {
   position: absolute;
   width: 48px;
   left: 96px;
   bottom: 60px;
   z-index: var(--z-decor);
+  transition: transform 0.2s ease;
+}
+.ellipse-a1:hover {
+  transform: scale(1.1);
+}
+.ellipse-a1:active {
+  transform: scale(0.95);
 }
 
-.features .features-decoration .card-3 .ellipce-a2 {
+.features .features-decoration .card-3 .ellipse-a2 {
   position: absolute;
   width: 48px;
   top: 69px;
   right: 45px;
   z-index: var(--z-decor);
+  transition: transform 0.2s ease;
+}
+.ellipse-a2:hover {
+  transform: scale(1.1);
+}
+.ellipse-a2:active {
+  transform: scale(0.95);
 }
 
 /* овощи */
@@ -472,6 +571,10 @@ h2 {
   width: 105px;
   top: 275px;
   left: 66px;
+  transition: transform 0.3s ease;
+}
+.foot-2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .features .features-decoration .carrot-2 {
@@ -480,6 +583,10 @@ h2 {
   width: 120px;
   bottom: 43px;
   right: 15px;
+  transition: transform 0.3s ease;
+}
+.carrot-2:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 .features .features-decoration .icon-2-1 {
@@ -487,6 +594,10 @@ h2 {
   width: 46px;
   top: 125px;
   right: 6px;
+  transition: transform 0.3s ease;
+}
+.icon-2-1:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 /* пятый экран */
@@ -521,6 +632,11 @@ h2 {
   width: 110px;
   top: 180px;
   left: 23px;
+  z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-left .pepper-sageGreen:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 .details .details-decoration-left .icon-1-sageGreen2 {
@@ -529,6 +645,11 @@ h2 {
   top: 370px;
   right: 75px;
   transform: rotate(-70deg);
+  z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-left .icon-1-sageGreen2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .details .details-decoration-left .icon-2-sageGreen2 {
@@ -536,6 +657,11 @@ h2 {
   width: 39px;
   top: 60px;
   right: 35px;
+  z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-left .icon-2-sageGreen2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .details .details-decoration-right {
@@ -558,6 +684,10 @@ h2 {
   top: 240px;
   left: 0px;
   transform: rotate(-180deg);
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-right .icon-2-sageGreen3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .details .details-decoration-right .icon-1-sageGreen3 {
@@ -565,6 +695,10 @@ h2 {
   width: 74px;
   top: 0px;
   right: 82px;
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-right .icon-1-sageGreen3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .details .details-decoration-right .radish-sageGreen {
@@ -572,11 +706,15 @@ h2 {
   width: 87px;
   right: 0px;
   bottom: 0px;
+  transition: transform 0.3s ease;
+}
+.details .details-decoration-right .radish-sageGreen:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 /* текст на знаке */
 
-.details .details-decoration-left h4 {
+.details .details-decoration-left h3 {
   font-family: "Stratos";
   font-size: 43px;
   color: var(--beige);
@@ -704,6 +842,10 @@ h2 {
   width: 145px;
   top: 15px;
   left: 0px;
+  transition: transform 0.3s ease;
+}
+.menu .header-decorations .eggplant-3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .menu .header-decorations .foot-3 {
@@ -711,6 +853,10 @@ h2 {
   width: 184px;
   bottom: 0px;
   right: 0px;
+  transition: transform 0.3s ease;
+}
+.menu .header-decorations .foot-3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .menu .header-decorations .icon-1-2 {
@@ -719,6 +865,10 @@ h2 {
   top: 0px;
   left: 138px;
   transform: rotate(-120deg);
+  transition: transform 0.3s ease;
+}
+.menu .header-decorations .icon-1-2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .menu .bg {
@@ -756,7 +906,15 @@ h2 {
 .menu .menu-content .soup {
   position: relative;
   width: 235px;
+  transition: transform 0.2s ease;
 }
+.soup:hover {
+  transform: scale(1.1);
+}
+.soup:active {
+  transform: scale(0.95);
+}
+
 .menu .menu-content .soup h6 {
   position: absolute;
   background-image: radial-gradient(circle, #ff8b68, #fd5624);
@@ -774,6 +932,13 @@ h2 {
 .menu .menu-content .bag {
   position: relative;
   width: 205px;
+  transition: transform 0.2s ease;
+}
+.bag:hover {
+  transform: scale(1.1);
+}
+.bag:active {
+  transform: scale(0.95);
 }
 .menu .menu-content .bag h6 {
   position: absolute;
@@ -793,6 +958,13 @@ h2 {
 .menu .menu-content .tag {
   position: relative;
   width: 245px;
+  transition: transform 0.2s ease;
+}
+.tag:hover {
+  transform: scale(1.1);
+}
+.tag:active {
+  transform: scale(0.95);
 }
 .menu .menu-content .tag h6 {
   position: absolute;
@@ -825,6 +997,13 @@ h2 {
 .menu .menu-content .cup {
   position: relative;
   width: 205px;
+  transition: transform 0.2s ease;
+}
+.cup:hover {
+  transform: scale(1.1);
+}
+.cup:active {
+  transform: scale(0.95);
 }
 
 /* седьмой экран */
@@ -868,7 +1047,7 @@ h2 {
   width: 365px;
 }
 
-.ligatures .rectangle-green-text h3 {
+.ligatures .rectangle-green-text h4 {
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 500;
@@ -918,12 +1097,20 @@ h2 {
   position: relative;
   top: -20px;
   transform: rotate(-3deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p1:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-green-decorations .p2 {
   position: relative;
   font-weight: 700;
   transform: rotate(4deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-green-decorations .p3 {
@@ -931,11 +1118,19 @@ h2 {
   font-weight: 500;
   top: -25px;
   transform: rotate(12deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-green-decorations .p4 {
   position: relative;
   transform: rotate(-8deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p4:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-green-decorations .p5 {
@@ -943,11 +1138,19 @@ h2 {
   font-weight: 700;
   top: -20px;
   transform: rotate(-3deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p5:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-green-decorations .p6 {
   position: relative;
   transform: rotate(7deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-green-decorations .p6:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 /* SAGE GREEN КВАДРАТ */
@@ -983,7 +1186,7 @@ h2 {
   width: 365px;
 }
 
-.ligatures .rectangle-sageGreen-text h3 {
+.ligatures .rectangle-sageGreen-text h4 {
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 500;
@@ -1033,12 +1236,20 @@ h2 {
   position: relative;
   top: -15px;
   transform: rotate(-7deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p1:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-sageGreen-decorations .p2 {
   position: relative;
   top: 10px;
   font-weight: 700;
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p2:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-sageGreen-decorations .p3 {
@@ -1047,6 +1258,10 @@ h2 {
   font-weight: 500;
   font-feature-settings: "ordn";
   transform: rotate(8deg);
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p3:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-sageGreen-decorations .p4 {
@@ -1054,6 +1269,10 @@ h2 {
   top: 10px;
   transform: rotate(-12deg);
   font-feature-settings: "ss05";
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p4:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-sageGreen-decorations .p5 {
@@ -1062,6 +1281,10 @@ h2 {
   font-weight: 700;
   transform: rotate(-7deg);
   font-feature-settings: "ss03";
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p5:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .ligatures .rectangle-sageGreen-decorations .p6 {
@@ -1069,6 +1292,10 @@ h2 {
   top: 0px;
   transform: rotate(3deg);
   font-feature-settings: "ss05";
+  transition: transform 0.3s ease;
+}
+.ligatures .rectangle-sageGreen-decorations .p6:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 /* восьмой экран */
@@ -1101,6 +1328,10 @@ h2 {
   width: 220px;
   top: 15px;
   left: 160px;
+  transition: transform 0.3s ease;
+}
+.awards .header-decorations .pumpkin-green:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 .awards .header-decorations .medal {
@@ -1108,6 +1339,10 @@ h2 {
   width: 165px;
   top: 55px;
   left: 5px;
+  transition: transform 0.3s ease;
+}
+.awards .header-decorations .medal:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
 
 /* КУБКИ - ОБЩЕЕ */
@@ -1239,7 +1474,7 @@ h2 {
   margin-top: -10px;
 }
 
-.footer h3 {
+.footer h4 {
   font-size: 32px;
   color: var(--beige);
   margin: 0 50px;
@@ -1252,6 +1487,10 @@ h2 {
   top: 30px;
   right: 349px;
   z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.footer .icon-1-3:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 .footer .icon-2-3 {
@@ -1260,6 +1499,10 @@ h2 {
   top: 98px;
   left: 418px;
   z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.footer .icon-2-3:hover {
+  transform: rotate(5deg) scale(1.05);
 }
 
 .footer .radish-sageGreen {
@@ -1268,4 +1511,8 @@ h2 {
   top: 73px;
   left: 720px;
   z-index: var(--z-decor);
+  transition: transform 0.3s ease;
+}
+.footer .radish-sageGreen:hover {
+  transform: rotate(-5deg) scale(1.05);
 }
